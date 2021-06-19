@@ -4,7 +4,7 @@
 @version        0.0.2
 @description    A dark theme userstyle for the FGO Gamepress website, based on Dark/Night GamePress by cicerakes
 @author         Noya
-@updatedURL     
+@updatedURL     https://github.com/ZykeDev/gamepress-darktheme/raw/main/FGOGamepressDark.user.css
 @var select		tAW		"Top Articles Widget" {
 	"Hidden": ".connatix{display:none}",
 	"Shown": ""
