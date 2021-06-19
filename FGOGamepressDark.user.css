@@ -1,0 +1,760 @@
+/* ==UserStyle==
+@name           FGO Gamepress Dark
+@namespace      gamepress.gg/
+@version        0.0.2
+@description    A dark theme userstyle for the FGO Gamepress website, based on Dark/Night GamePress by cicerakes
+@author         Noya
+@updatedURL     
+@var select		tAW		"Top Articles Widget" {
+	"Hidden": ".connatix{display:none}",
+	"Shown": ""
+}
+@var select		cSb		"Custom Scrollbar" {
+	"Enabled": "::-webkit-scrollbar{background-color:/*[[sbBgCol]]*\/;width: 15px}::-webkit-scrollbar-thumb{background-color:/*[[sbBCol]]*\/}::-webkit-scrollbar-thumb:hover{background-color:/*[[sbBHCol]]*\/}textarea::-webkit-scrollbar:vertical{border-left:1px solid #3e3e3e}textarea::-webkit-scrollbar-thumb:vertical{border-left:1px solid #3e3e3e}textarea::-webkit-scrollbar:horizontal{border-top:1px solid #3e3e3e}textarea::-webkit-scrollbar-thumb:horizontal{border-top:1px solid #3e3e3e}::-webkit-scrollbar-corner{background-color:/*[[sbBgCol]]*\/}",
+	"Disabled": ""
+}
+@var color		sbBgCol	"Scrollbar Background Colour" #262626
+@var color		sbBCol	"Scrollbar Bar Colour" rgba(86,86,86,0.4)
+@var color		sbBHCol	"Scrollbar Bar Hover Colour" rgba(102,102,102,0.4)
+==/UserStyle== */
+
+@-moz-document domain("gamepress.gg") {
+    
+   body {
+        background-color: #0e0e0e;
+        color: #cecece;
+    }
+
+    #content-inner, .gameguides {
+        background: #1e1e1e !important;
+    }
+
+    #content-inner p {
+        background-color: #1e1e1e00 !important;   
+    }
+
+    div#mc_embed_signup {
+        background-color: #1e1e1e00 !important;   
+    }
+
+    .block-views-blockpopular-pages-block-3, .block-views-blockpopular-pages-block-1, .popular-block, #block-popularitemsblock {
+        background: #1e1e1e00;
+    }
+
+    .sub-title {
+        color: #fff !important;
+    }
+
+    th, table tbody td, table thead th {
+        background-color:#222;   
+    }
+
+    .accordion-custom-content {
+        background-color:#111;
+        border-color:#333;
+    }
+
+    .servant-new-layout .traits-list-servant a, .servant-new-layout .servant-tags-list a {
+        color: #7ca7bc;
+        background: #05050559;
+    }
+
+    .community-container a.com-item, .latest-content-main .latest-content-container{
+        color: #e6e6e6;
+        background: #fff0 !important;
+    }
+
+    #featured-content-list-main  {
+        color: #e6e6e6;
+        background: #fff0 !important;
+    }
+
+    .field__item {
+        background: #fff0 !important;
+    }
+
+    .filter-inactive, .tier-filter {
+        background: #ffffff8a !important;
+    }
+
+    h3 {
+        color: #bbeaff !important;
+    }
+
+
+    /*[[cSb]]*/
+
+    /*[[tAW]]*/
+
+    th, table tbody td, table thead th {
+        border-color: #3e3e3e !important;
+    }
+
+    th {
+        background: #242424;
+        color: #fff;
+    }
+
+    hr {
+        border-color: #2e2e2e !important;
+    }
+
+    input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea, select[multiple=multiple] {
+        background-color: #171717;
+        border-color: #2e2e2e;
+    }
+
+    input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover, select[multiple=multiple]:hover {
+        border-color: #4e4e4e;
+    }
+
+    select {
+        background-color: #171717;
+        border-color: #3e3e3e;
+    }
+
+    .menu-container {
+        border-color: #3e3e3e;
+        background-color: #1e1e1e;
+    }
+
+    .menu-container .menu--top-menu li a, .menu-container .menu--top-menu li:last-child a, header#site-header .outer-wrapper {
+        color: #c9c9c9;
+        border-color: #3e3e3e;
+    }
+
+    .easy-autocomplete-container ul {
+        background-color: #171717;
+    }
+
+    .easy-autocomplete-container ul li.selected {
+        background-color: #2e2e2e;
+    }
+
+    .easy-autocomplete-container ul li, .easy-autocomplete-container ul .eac-category {
+        border-color: #4e4e4e;
+    }
+
+    button.submit-error-button {
+        background: #171717;
+        border-color: #2e2e2e;
+    }
+
+    #site-footer {
+        background: #1e1e1e;
+        border-color: #3e3e3e;
+    }
+
+    #site-footer section.footer-top, #site-footer #block-footerblocktext p[style="color: #636363;font-size: 12px;border-top: 1px solid #e2e2e2;padding-top: 20px;"] {
+        border-color: #2e2e2e !important;
+    }
+
+    .register-page div#content-inner {
+        background: #171717 !important;
+    }
+    .status-messages .error {
+        background: #97484C;
+        color: #ffd0d1;
+    }
+    .status-messages .error a {
+        color: #ffd0d1;
+    }
+
+    .home-page-top-2 {
+        background: #252525;
+    }
+    .view-home-page-news-feed .new-post-url {
+        background: #171717;
+    }
+    .view-home-page-news-feed span.post-type {
+        color: #cecece;
+    }
+    .view-home-page-news-feed span.post-created-date {
+        color: #6e6e6e;
+    }
+    .frontpage .pager li.pager__item a {
+        background: #1e1e1e;
+        color: #cecece;
+    }
+
+    .menu-c {
+        background: #1e1e1e;
+    }
+
+    .menu-c .menu-item--expanded span {
+        background: #2e2e2e;
+        color: #cecece;
+    }
+
+    #block-mainnavigation-2 .menu-item--expanded .menu li span, #block-mainnavigation .menu-item--expanded .menu li span {
+        border-color: #7e7e7e;
+    }
+
+    .news-row {
+        border-color: #3e3e3e;
+    }
+
+    .news-right-text {
+        background: #252525;
+    }
+
+    #block-views-block-popular-pages-block-3, #block-views-block-popular-pages-block-4, #block-views-block-popular-pages-block-2, #block-views-block-popular-pages-block-1 {
+        background: #1e1e1e;
+    }
+
+    #block-views-block-popular-pages-block-3 li a, #block-views-block-popular-pages-block-4 li a, #block-views-block-popular-pages-block-2 li a, #block-views-block-popular-pages-block-1 li a {
+        border-color: #2e2e2e;
+    }
+
+    #block-views-block-popular-pages-block-3 .view-footer, #block-views-block-popular-pages-block-4 .view-footer, #block-views-block-popular-pages-block-2 .view-footer, #block-views-block-popular-pages-block-1 .view-footer {
+        border-color: #2e2e2e;
+    }
+
+    #block-views-block-popular-pages-block-3 .pages-ranking-item .pages-ranking-number, #block-views-block-popular-pages-block-4 .pages-ranking-item .pages-ranking-number, #block-views-block-popular-pages-block-2 .pages-ranking-item .pages-ranking-number, #block-views-block-popular-pages-block-1 .pages-ranking-item .pages-ranking-number {
+        background: #171717;
+        box-shadow: 1px 3px 3px #090909;
+    }
+
+    .gameguides li a, #block-gamestopsection-2, #block-gamestopsection {
+        background: #1e1e1e;
+    }
+
+    .gameguides li a, .gameguides li:last-child a, #block-gamestopsection-2 li, #block-gamestopsection li {
+        border-color: #2e2e2e;
+    }
+
+    #announcement {
+        background: #171717;
+        border-color: #3e3e3e;
+        box-shadow: 0 0 5px #444;
+    }
+
+    #announcement .announcement-text {
+        color: #bfbfbf;
+    }
+
+    .field.field--name-field-time-text {
+        background: #252525;
+        border-color: #2e2e2e;
+    }
+
+    span.field-timer-jquery-countdown.is-countdown {
+        border-color: #2e2e2e;
+    }
+
+    #hero-table-contents a, #servant-table-contents a, #char-table-contents a {
+        background: #171717;
+        border-color: #3e3e3e;
+    }
+
+    #hero-table-contents a:hover, #servant-table-contents a:hover, #char-table-contents a:hover {
+        background: #1e1e1e;
+    }
+
+    #hero-stats span.stat-text, #servant-stats span.stat-text {
+        border-color: #171717;
+    }
+
+    #hero-stats .header-stats, #servant-stats .header-stats {
+        background: #252525;
+    }
+
+    .title-full {
+        background: #1c2025;
+    }
+
+    .paragraph--type--table-of-contents {
+        border-color: #2e2e2e;
+        background-color: #171717;
+    }
+
+    #content-inner .field--type-text-long h3, #block-gamepressbase-content h3, #block-gamepressbase-content .field--name-field-title, #block-gamepressbase-content .sub-title {
+        background: #323232;
+        border-color: #515151;
+    }
+
+    .social-media-links a {
+        background: #1f1f1f !important;
+    }
+
+    div#page-title {
+        background: #171717;
+        border-color: #2e2e2e;
+    }
+
+    .field--name-field-page-description {
+        border-color: #2e2e2e;
+        color: #b3b3b3;
+    }
+
+    #socail-media-links {
+        display: none;
+    }
+
+    .no-expl {
+        background: #1c2025;
+    }
+    .view-new-tier-lists .views-row, .view-arena-offense-tier-list .views-row, .view-tier-list-blocks-dragon .views-row, .view-armor-tier-list .views-row, .view-flier-tier-list .views-row, .view-cavalry-tier-list .views-row {
+        border-color: #3e3e3e;
+    }
+    .view-new-tier-lists .show-expl, .view-arena-offense-tier-list .show-expl, .view-tier-list-blocks-dragon .show-expl, .view-armor-tier-list .show-expl, .view-flier-tier-list .show-expl, .view-cavalry-tier-list .show-expl {
+        background-color: #2e4d33 !important;
+    }
+    .modal-content, .gp-tier-modal .modal-content-gp-tier {
+        background-color: #181818;
+    }
+    .tier-filter {
+        background: #171717;
+        border-color: #3e3e3e;
+    }
+    .tier-filter-table .filter-active {
+        background: #3e3e3e;
+    }
+
+    .paragraph .field--name-field-title {
+        background: #252525;
+        border-color: #343434;
+    }
+
+    blockquote  {
+        border-left-color: #1c2025;
+        background: #212121;
+    }
+
+    .awesomplete>ul {
+        background: #171717;
+    }
+
+    .awesomplete>ul>li:hover {
+        background: #1c2025;
+        color: inherit;
+    }
+
+    ul.tabs-map-team li.current, ul.tabs-map-image li.current, ul.tabs-map li.current, ul.tabs-images li.current, ul.tabs-stats li.current, ul.tabs-mc li.current {
+        background: #171717;
+    }
+
+    ul.tabs-images li, ul.tabs-mc li {
+        background: #171717;
+        border-color: #2e2e2e;
+    }
+
+    .field--name-field-featured-content-list .field__item {
+        border-color: #3e3e3e;
+    }
+
+    .field--name-field-featured-content-list a .field__item:hover {
+        background: #2e2e2e;
+    }
+
+    .field--name-field-featured-content-list a {
+        color: #cecece;
+    }
+
+    .paragraph--type--featured-content-list .current-page {
+        background: #2e2e2e;
+    }
+
+    .paragraph--type--featured-content div>div:hover {
+        box-shadow: 0 0 15px #646464;
+    }
+
+    input#js-search-1, input#js-search-2, input#js-search {
+        background-color: #2e2e2e;
+        border-color: #2e2e2e;
+    }
+
+    .feedback-form-gp a {
+        background-color: #2e2e2e;
+        color: #cecece;
+    }
+    .feedback-form-gp {
+        border-color: #2e2e2e;
+    }
+    .gameguides a.featured-button {
+        border-color: #3076b2 !important;
+    }
+    ul.tabs-paragraph li {
+        background: #171717;
+        border-color: #2e2e2e;
+    }
+    ul.tabs-paragraph li.current {
+        background: #212121;
+    }
+    .core-last-updated-date, span.cl-toggle, #block-change-log {
+        border-color: #2e2e2e;
+    }
+    #block-last-updated-date span.lu-date, span.cl-toggle, #block-change-log {
+        color: #b3b3b3;
+    }
+    ul.menu a.is-active {
+        color: #cecece;
+    }
+    .feedback-form-gp-2 {
+        background: #1c2025;
+    }
+    .feedback-form-gp-2 a {
+        background: #171717;
+        color: #b3b3b3;
+    }
+    .feed-item-container, .feed-item-container a {
+        background: #171717;
+        color: #b3b3b3 !important;
+    }
+    .featured-button {
+        background: rgba(0, 0, 0, 0) !important;
+    }
+
+    .paragraph--type--block .discourse-feed-posts {
+        background-color: #171717;
+        border-color: #2e2e2e;
+    }
+    #block-latestposts {
+        background-color: #1e1e1e;
+    }
+    #block-latestposts .discourse-feed-posts {
+        border-color: #2e2e2e;
+    }
+
+    .field--name-field-author-credit {
+        background-color: #171717;
+    }
+
+    .game-home-feed-container {
+        background: rgba(0, 0, 0, 0.4) !important;
+    }
+
+    .game-home-feed-title {
+        color: #a2a2a2 !important;
+    }
+
+
+    .active {
+        background: #2e2e2e;
+    }
+
+    .featured-items .content-2-group-item, .paragraph--type--summon-units-4-featured- .summon-hero-container, .summon-units-4 .summon-hero-container, .paragraph--type--summon-units-3-featured- .summon-hero-container, .summon-units-3 .summon-hero-container {
+        background: #171717;
+        border-color: #2e2e2e;
+    }
+
+    .field--name-field-page-content .event-div-active {
+        border-color: #3e3e3e;
+        -webkit-filter: saturate(160%) brightness(80%);
+        filter: saturate(160%) brightness(80%);
+        color: #000;
+    }
+    #current-time-marker, .time-tick {
+        border-color: #fff;
+        z-index: 10;
+    }
+
+    .ui-widget-content {
+        background: #1e1e1e;
+        border-color: #3e3e3e;
+    }
+    .field--name-field-accordion .ui-accordion .ui-accordion-content {
+        color: #cecece;
+    }
+
+    .view-id-discourse_block .views-row {
+        background: #171717;
+        border-color: #2e2e2e;
+    }
+    .view-id-discourse_block a.community-post-link {
+        border-color: #2e2e2e;
+        background: #171717;
+    }
+    .view-id-discourse_block a.community-post-link:last-child {
+        border-color: #2e2e2e;
+    }
+    .view-id-discourse_block .community-post-title {
+        color: #cecece;
+    }  
+
+    #servant-stats {
+        background: #171717;
+        box-shadow: 0 0 5px #3e3e3e;
+    }
+
+    #servant-stats span.bar-label {
+        background: rgba(23, 23, 23, 0.5)
+    }
+    #servant-stats span#hp-bar {
+        background: #3a6d39;
+    }
+    #servant-stats #hp-bar-max {
+        background: #1c561b;
+    }
+    #servant-stats span#atk-bar {
+        background: #a93737;
+    }
+    #servant-stats #atk-bar-max {
+        background: #b11818;
+    }
+
+    #servant-list li {
+        background: rgba(0, 0, 0, 0.25) !important;
+        border-color: rgba(0, 0, 0, 0.4) !important;
+    }
+
+    #servant-list li:hover {
+        background: rgba(0, 0, 0, 0.05) !important;
+    }
+
+    #ratingchart, .stats-growth-charts #legend {
+        filter: invert(100%) hue-rotate(180deg) saturate(1.5);
+    }
+
+    .stats-growth-charts {
+        background-color: #1e1e1e !important;
+    }
+
+    #growthChart {
+        filter: invert(100%) hue-rotate(180deg) saturate(6);
+    }
+
+    .view-servant-skills-node .views-row, .node--type-servant-skills article, .mystic-code-skills-row {
+        background: #171717;
+    }
+
+    .view-servant-skills-node .views-field.views-field-field-skill-unlock p {
+        border-color: #2e2e2e;
+    }
+
+    .view-class-skills-node .views-row {
+        background: #171717;
+        border-color: #3e3e3e;
+    }
+
+    .unit-sub-title, .np-main-title {
+        border-color: #3e3e3e;
+        background-color: #252525;
+    }
+
+    .field--type-comment .title {
+        background: #1c2025;
+    }
+
+    .comment-section {
+        background: #191919;
+        border-color: #2e2e2e;
+    }
+
+    .comment-item .content {
+        background: #171717;
+        border-color: #2e2e2e;
+    }
+
+    .paragraph--type--_-4-servant, .right-servant-text {
+        border-color: #2e2e2e;
+    }
+
+    .paragraph--type--right-quote .right-quote-text, .paragraph--type--left-quote .left-quote-text {
+        background: #171717;
+        box-shadow: 0 0 5px #000;
+    }
+
+    .paragraph--type--left-quote .left-quote-arrow {
+        border-color: #171717 transparent transparent transparent;
+    }
+
+    .paragraph--type--right-quote .right-quote-arrow {
+        border-color: transparent #171717 transparent transparent;
+    }
+
+    .view-items h3 {
+        background: #1c2025;
+    }
+
+    .view-items .views-col {
+        border-color: #3e3e3e;
+    }
+
+    .view-servants-need-for-skill-up .view-header, .view-servants-need-to-ascend .view-header {
+        border-color: #1c2025;
+        background: #252525;
+    }
+
+    .view-servants-need-for-skill-up .views-col, .view-servants-need-to-ascend .views-col {
+        border-color: #2e2e2e;
+    }
+
+    .view-quest-pages .view-grouping-header {
+        background: #171717;
+    }
+
+    .view-quest-pages caption {
+        border-color: #1c2025;
+        background: #252525;
+    }
+
+    .view-quest-pages caption a {
+        color: #cecece;
+    }
+
+    div#main-quest {
+        background: #171717;
+        border-color: #2e2e2e;
+    }
+
+    .view-enemy-details-for-quest .view-grouping .view-grouping-header {
+        background: #171717;
+    }
+
+    .view-enemy-details-for-quest .view-grouping .view-grouping-content .view-grouping-header {
+        color: #cecece;
+        border-color: #1c2025;
+        background: #252525;
+    }
+
+    .featured-main .featured-item {
+        background: #252525;
+        border-color: #464646;
+    }
+
+    .servant-new-layout #servant-subheader {
+        background: #171717;
+        border-color: #3e3e3e;
+        box-shadow: 0 0 5px #3e3e3e;
+    }
+    .servant-new-layout .deck-layout-new {
+        background: #171717;
+        border-color: #3e3e3e;
+    }
+    .servant-new-layout .servant-skill-single {
+        background: #171717;
+        border-color: #3e3e3e;
+    }
+    .servant-new-layout .field--name-field-servant-skills>.field__item {
+        background-color: #3e3e3e;
+    }
+    .servant-new-layout .view-craft-essences.view-id-craft_essences.view-display-id-bond_ce .views-row {
+        border-color: #3e3e3e;
+    }
+    .servant-new-layout .view-level-up-skill-recommendation .Higher td:first-child {
+        background: #0C310C;
+    }
+    .servant-new-layout .view-level-up-skill-recommendation .High td:first-child {
+        background: #1D2E1D;
+    }
+    .servant-new-layout .view-level-up-skill-recommendation .Low td:first-child {
+        background: #541515;
+    }
+    .servant-new-layout .view-level-up-skill-recommendation .Medium td:first-child {
+        background: #37371C;
+    }
+
+    .view-id-discourse_block a.community-post-link {
+        border-color: #2e2e2e;
+        background: #171717;
+    }
+    .view-id-discourse_block .community-post-title {
+        color: #cecece;
+    }
+
+    .item-image {
+        background: #171717;
+        box-shadow: 0 0 3px #3f3f3f;
+    }
+
+    /* events */
+    /* prisma */
+
+    td[style="border: solid black 1.0pt;background: #ffb1b1;"], td[style="border: solid black 1.0pt; background: #ffb1b1"], td[style="border: solid black 1.0pt; background:#ffb1b1"] {
+        background: #4B1A1A !important;
+        border-color: #712727 !important;
+    }
+
+    td[style="border: solid black 1.0pt; background: #ffe9ec;"] {
+        background: #250D0D !important;
+        border-color: #4B1A1A !important;
+    }
+
+    article[id="node-172111"] tr:first-child td, td[style="border: solid black 1.0pt; background: #FFD5DF;"], td[style="width:18%; border: solid black 1.0pt; background: #FFD5DF;"], td[style="width:22%; border: solid black 1.0pt; background: #FFD5DF;"] {
+        background: #250D0D !important;
+        border-color: #4B1A1A !important;
+    }
+
+    td[style="border: solid black 1.0pt; background: #a6f1b9;"] {
+        background: #214121 !important;
+        border-color: #326332 !important;
+    }
+
+    td[style="border: solid black 1.0pt; background: #ffffc6;"] {
+        background-color: #4C4408 !important;
+        border-color: #726000 !important;
+    }
+
+    td[style="border: solid black 1.0pt; background: #d4ebf2"], td[style="border: solid black 1.0pt; background:#d4ebf2"] {
+        background: #1B374F !important;
+        border-color: #2E5C84 !important;
+    }
+
+    /* halloween rerun */
+
+    tr[bgcolor="#DDDDDD"] {
+        background-color: #262626;
+    }
+
+    tr[bgcolor="#FFFF99"] {
+        background-color: #4C4408 !important;
+    }
+
+    tr[bgcolor="#FF9999"] {
+        background: #4B1A1A !important;
+    }
+
+    /* ccc */
+
+    td[style="border: solid black 1.0pt; background: #add8e6;"] {
+        background: #143743 !important;
+        border-color: #20576A !important;
+    }
+    span[style="color: #1e3164; font-size=12pt;"] {
+        color: #7891D6 !important;
+    }
+
+    td[style="width: 5%; border: solid black 1.0pt; background: #add8e6;"], td[style="width: 20%; border: solid black 1.0pt; background: #add8e6;"], td[style="width: 50%; border: solid black 1.0pt; background: #add8e6;"], td[style="width: 25%; border: solid black 1.0pt; background: #add8e6;"] {
+        background: #143743 !important;
+        border-color: #20576A !important;
+    }
+
+    td[style="border: solid black 1.0pt; background: #FFE699;"], td[style="border: solid blue 1.0pt; background:#FFE699;"] {
+        background-color: #4C4408 !important;
+        border-color: #726000 !important;
+    }
+    span[style="color: #002060; font-size=12pt;"] {
+        color: #A3BCEF !important;
+    }
+
+    tr[bgcolor="#C0D0FE"] {
+        background: #1E2C54;
+        border-color: #2E4481;
+    }
+    tr[bgcolor="#C0D0FE"] td {
+        border-color: #2E4481 !important;
+    }
+
+    tr[bgcolor="#FFFBAF"] {
+        background: #4A4719;
+    }
+    tr[bgcolor="#FFFBAF"] td {
+        border-color: #746F27 !important;
+    }
+
+    tr[bgcolor="#FEC0F7"] {
+        background: #541E4E;
+    }
+    tr[bgcolor="#FEC0F7"] td {
+        border-color: #852F7B !important;
+    }
+
+    font[color="#000000"], span[style="color:black;"] {
+        color: #fff !important;
+    }
+
+    span[style="color:blue; font-size:10pt;"], [style="color:blue;"] {
+        color: #3a81ff !important;
+    }
+}
