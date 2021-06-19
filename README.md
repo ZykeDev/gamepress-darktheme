@@ -4,5 +4,6 @@
 
 Fixes, improvements and updates for [cicerakes](https://github.com/cicerakes)' [DarkNight GamePress](https://github.com/cicerakes/DarkNight-GamePress/) discontinued* userstyle for [gamepress.gg/grandorder](https://gamepress.gg/grandorder/).
 
+I'll probably update this every now and again, whenever I find inconsistencies.
 
 *Not sure if it's actually discontinued, but the repo has been archived.
